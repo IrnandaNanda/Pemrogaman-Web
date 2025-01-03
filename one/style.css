@@ -4,10 +4,17 @@ html {
     padding: 0;
 }
 
+body {
+    background-color: #333;
+    color: white;
+}
+
+.container { }
+
 .container-navbar {
     background-color: #333;
     width: 100%;
-    height: 100px;
+    height: 10vh;
 }
 
 .ul-navbar {
@@ -21,5 +28,19 @@ html {
     list-style-type: none;
     padding: 20px;
     margin: 5px;
-    color: white;
+}
+
+.content-1 {
+    background-color: #333;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
